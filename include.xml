@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	<haxelib name="openfl" />
-	<haxelib name="gamecenter" if="mobile" />
-	<haxelib name="extension-googleplaygames" />
+	<haxelib name="gamecenter" if="ios" />
+	<haxelib name="extension-googleplaygames" if="android" />
 </project>
